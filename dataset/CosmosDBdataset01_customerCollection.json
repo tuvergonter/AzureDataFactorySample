@@ -1,0 +1,14 @@
+{
+	"name": "CosmosDBdataset01_customerCollection",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "vin_cosmosdbconn01",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"typeProperties": {
+			"collectionName": "Customer"
+		}
+	}
+}
